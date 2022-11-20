@@ -3,6 +3,19 @@
 obs1: nao foi usado arquivos
 obs2: nao foi usado strcmp, pois o seguinte erro estava aparecendo na hora da comparacao (msm que ambas variaves fossem do tipo string)
 - error: cannot convert 'std::string' {aka 'std::__cxx11::basic_string<char>'} to 'const char*'  
+
+-A prefeitura de uma cidade faz uma pesquisa sobre os domicílios na área urbana. Em
+cada domicilio, são coletados dados sobre renda média mensal, número total de
+ocupantes, endereço e número de ocupantes em idade escolar. Faça:
+a. um programa que leia estes dados, faça a ordenação por inserção direta e salve
+os dados ordenados em um arquivo. Os dados devem ser ordenados de acordo
+com o endereço.
+b. um programa que leia o arquivo e tenha um menu que permita(nao foi usado arquivo):
+i. Listar todos os domicílios, com as respectivas informações;
+ii. Buscar os dados do domicílio quando um determinado endereço é
+digitado. Para a busca, deve-se utilizar busca binária;
+iii. Sair.
+
 */
 
 #include <iostream>  
