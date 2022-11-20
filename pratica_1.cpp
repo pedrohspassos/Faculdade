@@ -1,3 +1,25 @@
+/* 
+Escrever um programa em C++ que
+a. Possua uma estrutura chamada estudante com os seguintes
+elementos
+ Numero USP
+ Nota da primeira prova
+ Nota da segunda prova
+ Média final
+b. Tenha um menu que permita realizar as seguintes operações
+1. Entrar com dados de um estudante (número USP e notas das
+provas)
+2. Mostrar dados de um estudante
+3. Mostrar a média e desvio padrão para as médias finais de todos
+os estudantes cadastrados
+4. Sair
+Observações:
+ procurar dados do estudante usando o número USP
+ calcular a média final como a média aritmética entre as duas
+provas
+ considerar um número máximo de 100 estudantes
+
+*/
 #include <iostream> // Pedro Henrique Da Silva Passos  Numero USP - 12683096
 #include <cmath>
 #include <math.h>
