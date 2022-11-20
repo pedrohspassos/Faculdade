@@ -1,4 +1,22 @@
 // Pedro Henrique da Silva Passos   Numero USP: 12683096
+/* 
+- Seja um registro (estrutura) com os campos: nome (string) e número de inscrição (int).
+Pede-se
+a. Faça uma função para ordenar, via QuickSort, um vetor com N registros. A
+ordenação deve ser de acordo com o número de inscrição;
+b. Imprima na tela o número de comparações entre chaves, movimentações de
+registros e chamadas da função recursiva realizadas pelo algoritmo. Utilize
+contadores para isso.
+c. Mostre os números de comparações e movimentações e desenhe as respectivas
+árvores de recursão para as 3 sequências a seguir (no qual apenas o número de
+inscrição é apresentado):
+45 56 12 43 95 19 8 67
+8 12 19 43 45 56 67 95
+95 67 56 45 43 19 12 8
+
+*/
+
+
 #include <iostream>
 #include <string>
 #include <string.h>
